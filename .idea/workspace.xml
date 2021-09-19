@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="" />
+    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1632069002358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="define github actions fix2">
+      <created>1632069243726</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1632069243726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +99,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="define github actions" />
     <MESSAGE value="define github actions fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="define github actions fix" />
+    <MESSAGE value="define github actions fix2" />
+    <option name="LAST_COMMIT_MESSAGE" value="define github actions fix2" />
   </component>
 </project>
