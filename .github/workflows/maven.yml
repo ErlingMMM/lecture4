@@ -3,10 +3,10 @@ name: Build with Maven
 on:
   push:
     branches:
-      -master/*
+      -testbranch/*
     pull_requst:
       branches:
-        -master/*
+        -testbranch/*
 
       jobs:
         build:
