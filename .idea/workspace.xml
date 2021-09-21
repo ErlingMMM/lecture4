@@ -130,7 +130,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1632071629033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="commit">
+      <created>1632097930279</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1632097930279</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -152,6 +159,7 @@
     <MESSAGE value="pom fix" />
     <MESSAGE value="fix maven" />
     <MESSAGE value="test shouldReturnStatusCode (fails)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test shouldReturnStatusCode (fails)" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
