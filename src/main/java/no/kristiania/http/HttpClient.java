@@ -37,4 +37,7 @@ public class HttpClient {
 
     }
 
+    public String getHeader(String headerName) {
+        return null;
+    }
 }
