@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,18 +46,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="no.kristiania.http" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="no.kristiania.http" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="no.kristiania.http" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServer">
+  <component name="RunManager" selected="JUnit.HttpServerTest.shouldReturn404ForUnknownRequestTarget">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="lecture4" />
@@ -117,8 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpServerTest.shouldReturn404ForUnknownRequestTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.http" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
+      <option name="METHOD_NAME" value="shouldReturn404ForUnknownRequestTarget" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpServerTest.shouldReturn404ForUnknownRequestTarget" />
         <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpClientTest.shouldReadBody" />
         <item itemvalue="JUnit.HttpClientTest" />
@@ -231,7 +262,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1632585809264</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Http server æøå">
+      <created>1632594619462</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1632594619462</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +297,7 @@
     <MESSAGE value="shouldReturnHeaders test (passed)" />
     <MESSAGE value="added getContentLength with test" />
     <MESSAGE value="Test shouldReadBody (passed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadBody (passed)" />
+    <MESSAGE value="Http server æøå" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http server æøå" />
   </component>
 </project>
