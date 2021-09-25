@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpClientTest.java" afterDir="false" />
@@ -55,7 +56,20 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpClientTest">
+  <component name="RunManager" selected="Application.HttpServer">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
+      <module name="lecture4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lecture4" />
       <extension name="coverage">
@@ -105,8 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="JUnit.HttpClientTest.shouldReadBody" />
+        <item itemvalue="JUnit.HttpClientTest" />
         <item itemvalue="JUnit.HttpClientTest.shouldReturnStatusCode" />
       </list>
     </recent_temporary>
@@ -210,7 +225,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1632584377332</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="Test shouldReadBody (passed)">
+      <created>1632585809264</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1632585809264</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +259,7 @@
     <MESSAGE value="shouldReturnHeaders test (fails)" />
     <MESSAGE value="shouldReturnHeaders test (passed)" />
     <MESSAGE value="added getContentLength with test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getContentLength with test" />
+    <MESSAGE value="Test shouldReadBody (passed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test shouldReadBody (passed)" />
   </component>
 </project>
