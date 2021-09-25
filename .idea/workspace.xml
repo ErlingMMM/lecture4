@@ -55,7 +55,38 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HttpClientTest">
+    <configuration name="HttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.http" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientTest.shouldReadBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.http" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpClientTest" />
+      <option name="METHOD_NAME" value="shouldReadBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientTest.shouldReturnStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lecture4" />
       <extension name="coverage">
@@ -74,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpClientTest" />
+        <item itemvalue="JUnit.HttpClientTest.shouldReadBody" />
         <item itemvalue="JUnit.HttpClientTest.shouldReturnStatusCode" />
       </list>
     </recent_temporary>
@@ -171,7 +204,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1632264084784</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="added getContentLength with test">
+      <created>1632584377332</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1632584377332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +237,7 @@
     <MESSAGE value="404 test passing" />
     <MESSAGE value="shouldReturnHeaders test (fails)" />
     <MESSAGE value="shouldReturnHeaders test (passed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="shouldReturnHeaders test (passed)" />
+    <MESSAGE value="added getContentLength with test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getContentLength with test" />
   </component>
 </project>
