@@ -41,7 +41,7 @@ public class HttpClient {
         while ((c=socket.getInputStream().read())!= '\r'){
             buffer.append((char)c);
         }
-        socket.getInputStream().read();
+        socket.getInputStream().read(); //Just a way of fixing a bug shown in lecture. IntelliJ doesn't like this one.
         return buffer.toString();
     }
 
@@ -52,5 +52,9 @@ public class HttpClient {
 
     public String getHeader(String headerName) {
         return headerFields.get(headerName);
+    }
+
+    public int getContentLength() {
+        return Integer.parseInt(getHeader("Content-Length"));
     }
 }
