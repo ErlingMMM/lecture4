@@ -5,8 +5,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
+
+
 public class HttpServer {
     private final ServerSocket serverSocket;
+    //private final Thread thread;
+
 
 
 
@@ -15,7 +19,11 @@ public class HttpServer {
 
 
 
+        /*thread = new Thread(this::handleClients);
+                thread.start();*/
+
         new Thread(this::handleClients).start();
+
 
     }
 

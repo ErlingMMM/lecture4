@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
@@ -268,7 +266,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1632594619462</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="shouldReturn404ForUnknownRequestTarget (passed)">
+      <created>1632600933507</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1632600933507</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +302,7 @@
     <MESSAGE value="added getContentLength with test" />
     <MESSAGE value="Test shouldReadBody (passed)" />
     <MESSAGE value="Http server æøå" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http server æøå" />
+    <MESSAGE value="shouldReturn404ForUnknownRequestTarget (passed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="shouldReturn404ForUnknownRequestTarget (passed)" />
   </component>
 </project>
