@@ -35,6 +35,7 @@ public class HttpClient {
                 headerFields.put(headerField, headerValue);
         }
         this.messageBody = readBytes(socket, getContentLength());
+
     }
 
     private String readBytes(Socket socket, int contentLength) throws IOException {
@@ -61,15 +62,18 @@ public class HttpClient {
     }
 
     public String getHeader(String headerName) {
+
         return headerFields.get(headerName);
     }
 
     public int getContentLength() {
+
         return Integer.parseInt(getHeader("Content-Length"));
     }
 
 
     public String getMessageBody() {
+
         return messageBody;
     }
 }
