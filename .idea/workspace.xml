@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="shouldRespondWith200ForKnownRequestTarget() (passed)">
+    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="requestTarget &quot;/hello&quot; outputs &quot;Hello World&quot; in browser">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632679205959</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="requestTarget &quot;/hello&quot; outputs &quot;Hello World&quot; in browser">
+      <created>1632679683955</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1632679683955</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,6 +348,7 @@
     <MESSAGE value="shouldRespondWithRequestTargetIn404() (refactor)" />
     <MESSAGE value="shouldRespondWith200ForKnownRequestTarget() (fails)" />
     <MESSAGE value="shouldRespondWith200ForKnownRequestTarget() (passed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="shouldRespondWith200ForKnownRequestTarget() (passed)" />
+    <MESSAGE value="requestTarget &quot;/hello&quot; outputs &quot;Hello World&quot; in browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="requestTarget &quot;/hello&quot; outputs &quot;Hello World&quot; in browser" />
   </component>
 </project>
