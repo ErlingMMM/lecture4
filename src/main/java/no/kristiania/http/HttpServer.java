@@ -32,13 +32,32 @@ public class HttpServer {
             Socket clientSocket = serverSocket.accept();
             String[] requestLine = HttpClient.readLine(clientSocket).split(" ");
             String requestTarget = requestLine[1];
-            String responseText = "File not found: " + requestTarget;
-            String response = "HTTP/1.1 404 Not found\r\n" +
-                    "Content-Length: " + responseText.getBytes(StandardCharsets.UTF_8).length +
-                    "\r\n\r\n"+
-                    responseText;
-            clientSocket.getOutputStream().write(response.getBytes(StandardCharsets.UTF_8));
-        } catch (IOException e) {
+
+
+
+
+
+            if (requestTarget.equals("/hello")){
+                String responseText = "Hello world";
+                String response = "HTTP/1.1 200 OK\r\n" +
+                        "Content-Length: " + responseText.getBytes(StandardCharsets.UTF_8).length +
+                        "\r\n\r\n"+
+                        responseText;
+                clientSocket.getOutputStream().write(response.getBytes(StandardCharsets.UTF_8));
+            }
+
+
+
+            else{
+                String responseText = "File not found: " + requestTarget;
+                String response = "HTTP/1.1 404 Not found\r\n" +
+                        "Content-Length: " + responseText.getBytes(StandardCharsets.UTF_8).length +
+                        "\r\n\r\n"+
+                        responseText;
+                clientSocket.getOutputStream().write(response.getBytes(StandardCharsets.UTF_8));
+            }
+            }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }

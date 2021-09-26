@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="shouldRespondWithRequestTargetIn404() (refactor)">
+    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="shouldRespondWith200ForKnownRequestTarget() (fails)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="no.kristiania.http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServer">
+  <component name="RunManager" selected="JUnit.HttpServerTest">
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServer" />
       <module name="lecture4" />
@@ -83,22 +83,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientTest.shouldReadBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lecture4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.kristiania.http.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.kristiania.http" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpClientTest" />
-      <option name="METHOD_NAME" value="shouldReadBody" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +98,22 @@
       <option name="PACKAGE_NAME" value="no.kristiania.http" />
       <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServerTest.shouldRespondWith200ForKnownRequestTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.http" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.http.HttpServerTest" />
+      <option name="METHOD_NAME" value="shouldRespondWith200ForKnownRequestTarget" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="JUnit.HttpServerTest.shouldRespondWithRequestTargetIn404" />
         <item itemvalue="JUnit.HttpServerTest" />
+        <item itemvalue="Application.HttpServer" />
+        <item itemvalue="JUnit.HttpServerTest.shouldRespondWith200ForKnownRequestTarget" />
+        <item itemvalue="JUnit.HttpServerTest.shouldRespondWithRequestTargetIn404" />
         <item itemvalue="JUnit.HttpServerTest.shouldReturn404ForUnknownRequestTarget" />
-        <item itemvalue="JUnit.HttpClientTest.shouldReadBody" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632677610991</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="shouldRespondWith200ForKnownRequestTarget() (fails)">
+      <created>1632678508590</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1632678508590</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,6 +331,7 @@
     <MESSAGE value="shouldReturn404ForUnknownRequestTarget (passed)" />
     <MESSAGE value="shouldRespondWithRequestTargetIn404() (passed)" />
     <MESSAGE value="shouldRespondWithRequestTargetIn404() (refactor)" />
-    <option name="LAST_COMMIT_MESSAGE" value="shouldRespondWithRequestTargetIn404() (refactor)" />
+    <MESSAGE value="shouldRespondWith200ForKnownRequestTarget() (fails)" />
+    <option name="LAST_COMMIT_MESSAGE" value="shouldRespondWith200ForKnownRequestTarget() (fails)" />
   </component>
 </project>
