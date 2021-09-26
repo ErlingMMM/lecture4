@@ -82,4 +82,8 @@ public class HttpServer {
         ).getBytes());*/
 
     }
+
+    public int getPort() {
+        return serverSocket.getLocalPort();
+    }
 }
