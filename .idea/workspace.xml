@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="shouldRespondWithRequestTargetIn404() (passed)">
+    <list default="true" id="890a5969-d95b-46c1-8658-d069a1c6a786" name="Default Changelist" comment="shouldRespondWithRequestTargetIn404() (refactor)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/kristiania/http/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/kristiania/http/HttpServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632674355788</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="shouldRespondWithRequestTargetIn404() (refactor)">
+      <created>1632677610991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1632677610991</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +323,7 @@
     <MESSAGE value="Http server æøå" />
     <MESSAGE value="shouldReturn404ForUnknownRequestTarget (passed)" />
     <MESSAGE value="shouldRespondWithRequestTargetIn404() (passed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="shouldRespondWithRequestTargetIn404() (passed)" />
+    <MESSAGE value="shouldRespondWithRequestTargetIn404() (refactor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="shouldRespondWithRequestTargetIn404() (refactor)" />
   </component>
 </project>
