@@ -66,7 +66,10 @@ public class HttpServer {
 
 
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(8080);
+        new HttpServer(1962);
+
+
+        /*ServerSocket serverSocket = new ServerSocket(8080);
 
         Socket clientSocket = serverSocket.accept();
 
@@ -90,7 +93,7 @@ public class HttpServer {
                 "Connection: close\r\n"+
                 "\r\n"+
                 messageBody;
-        clientSocket.getOutputStream().write((responseMessage).getBytes());
+        clientSocket.getOutputStream().write((responseMessage).getBytes());*/
 
           /*clientSocket.getOutputStream().write((
                 "HTTP/1.1 200 OK\r\n"+
