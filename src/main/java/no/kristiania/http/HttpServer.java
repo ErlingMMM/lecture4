@@ -4,11 +4,12 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
-
+import java.nio.file.Path;
 
 
 public class HttpServer {
     private final ServerSocket serverSocket;
+    private Path rootDirectory;
     //private final Thread thread;
 
 
@@ -107,5 +108,9 @@ public class HttpServer {
 
     public int getPort() {
         return serverSocket.getLocalPort();
+    }
+
+    public void setRoot(Path rootDirectory) {
+        this.rootDirectory = rootDirectory;
     }
 }
