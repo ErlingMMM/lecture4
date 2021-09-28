@@ -30,7 +30,8 @@ class HttpServerTest {
         HttpServer server = new HttpServer(10003);
         HttpClient client = new HttpClient("localhost", server.getPort(), "/hello");
         assertEquals(200, client.getStatusCode());
-        assertEquals("Hello world", client.getMessageBody());
+        assertEquals("txt/html", client.getHeader("Content-Type"));
+        assertEquals("<p>Hello world</p>", client.getMessageBody());
     }
 
     @Test

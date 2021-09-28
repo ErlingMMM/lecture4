@@ -39,9 +39,10 @@ public class HttpServer {
 
 
             if (requestTarget.equals("/hello")){
-                String responseText = "Hello world";
+                String responseText = "<p>Hello world</p>";
                 String response = "HTTP/1.1 200 OK\r\n" +
                         "Content-Length: " + responseText.getBytes(StandardCharsets.UTF_8).length +
+                        "Content-Type: txt/html\r\n"+
                         "\r\n\r\n"+
                         responseText;
                 clientSocket.getOutputStream().write(response.getBytes(StandardCharsets.UTF_8));
